@@ -1,0 +1,15 @@
+scalar Point
+scalar DateTime
+scalar PointInput
+
+type County {
+  id: ID!
+  stateAbrev: String
+  total_cases: Int
+  countyType: Int
+}
+
+type State {
+  abr: ID!
+  total: Int
+}
